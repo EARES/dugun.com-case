@@ -2,15 +2,20 @@
   "name": "dugun-case",
   "version": "0.1.0",
   "private": true,
+  "author": "Emre Akbaki",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.22.0",
+    "buefy": "^0.9.10",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-star-rating": "^1.7.0",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
